@@ -14,7 +14,7 @@ export default function NotesPanel({
       ? `${startDate.toDateString()}_${endDate.toDateString()}`
       : null;
 
-  // Load note when selection changes
+  
   useEffect(() => {
     if (key && notes[key]) {
       setText(notes[key]);
